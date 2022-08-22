@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+
+  <body>
+    <nav>
+      <img id="logo" img src="logo.png" alt="" />
+      <p id="welcome"></p>
+      <button id="homep"><a href="index.html">HOME</a></button>
+      <button id="login"><a href="login.html">LOGIN</a></button>
+      <button id="signup"><a href="signup.html">SIGNUP</a></button>
+      <button onclick="logout()" id="logout">
+        <a href="index.html">LOGOUT</a>
+      </button>
+    </nav>
+
+    <div id="slideshow">
+      <!--Show Slideshow here-->
+    </div>
+
+    <div id="sort-buttons">
+      <!--Add sorting here-->
+      <h1 style="color: crimson">Sort the Movies by rating</h1>
+      <button id="sort-lh">LOW TO HIGH</button>
+      <button id="sort-hl">HIGH TO LOW</button>
+    </div>
+      <p id="para">LOGIN FIRST</p>
+    <h1 style="color: goldenrod">Movies List</h1>
+    <div id="movies">
+      <!--Show list of movies here-->
+    </div>
+  </body>
+</html>
+<script src="./scripts/index.js"></script>
