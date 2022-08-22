@@ -1,0 +1,145 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+  background-size: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+  background-image: url("https://i.pinimg.com/736x/16/71/6c/16716c73b174dd817e2749d33abffc2f.jpg");
+  background-size: 100%;
+  border: 3px solid goldenrod;
+  border-radius: 10px 10px 0 0;
+}
+nav > button > a {
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: bold;
+}
+nav > button {
+  margin: 10px;
+  padding: 8px 20px;
+  background-color: crimson;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid goldenrod;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#logo {
+  margin-right: 900px;
+  width: 50px;
+  border-radius: 50px;
+}
+#logout {
+  display: none;
+}
+#login,
+#signup {
+  display: block;
+}
+#para {
+  text-align: center;
+  font-size: 40px;
+  line-height: 25px;
+  font-weight: bold;
+  color: goldenrod;
+}
+#welcome {
+  display: none;
+  color: crimson;
+  font-weight: bolder;
+  margin-right: 30px;
+  font-size: 20px;
+  background-color: goldenrod;
+  padding: 5px;
+  border: 1px solid crimson;
+  border-radius: 5px;
+}
+#slideshow {
+  width: 100%;
+  height: 510px;
+  border: 1px solid goldenrod;
+  overflow: hidden;
+}
+.slideshowIMG {
+  width: 100%;
+  height: 100%;
+}
+
+#sort-buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  background-image: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg?w=2000");
+  background-size: 100%;
+  border: 2px solid goldenrod;
+}
+#sort-buttons > button {
+  text-align: center;
+  font-weight: bolder;
+  cursor: pointer;
+  color: goldenrod;
+  height: 50px;
+
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: crimson;
+  border-radius: 15px;
+  border: 1px solid goldenrod;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#movies {
+  display: grid;
+  gap: 30px;
+  margin-top: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.moviesList {
+  height: 500px;
+  border: 3px solid goldenrod;
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  text-align: center;
+}
+.moviesList > div:first-child {
+  height: 350px;
+}
+.moviesList > div:last-child {
+  background-image: url("https://media.istockphoto.com/photos/golden-sparkle-background-picture-id1195542618?k=20&m=1195542618&s=612x612&w=0&h=mdyF3lFPdcbtki2BhWPGXK4zM2o1jCfVBfFYTOAXNFs=");
+  background-size: 100%;
+  height: 150px;
+}
+.moviesList h2 {
+  margin: 0;
+  padding: 10px;
+  color: goldenrod;
+}
+.moviesList hr {
+  margin: 0;
+  background-color: goldenrod;
+  width: 100%;
+}
+.moviesList img {
+  width: 100%;
+  height: 350px;
+}

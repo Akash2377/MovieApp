@@ -1,0 +1,72 @@
+body {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+  background-size: 100%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+  background-image: url("https://i.pinimg.com/736x/16/71/6c/16716c73b174dd817e2749d33abffc2f.jpg");
+  background-size: 100%;
+  border: 3px solid goldenrod;
+  border-radius: 10px;
+}
+nav > button > a {
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: bold;
+}
+nav > button {
+  margin: 10px;
+  padding: 8px 20px;
+  background-color: crimson;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid goldenrod;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#logo {
+  margin-right: 900px;
+  width: 50px;
+  border-radius: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin-top: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 20px 30px 40px 30px;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid goldenrod;
+}
+form > input {
+  margin: px 0;
+  height: 30px;
+  border-radius: 8px;
+  padding-left: 15px;
+  border: 2px solid goldenrod;
+}
+#adduser {
+  background-color: crimson;
+  width: 200px;
+  font-size: 20px;
+  color: goldenrod;
+  margin-top: 30px;
+  border: 2px solid goldenrod;
+  margin-left: 70px;
+  padding: 5px 10px;
+  height: 40px;
+}
